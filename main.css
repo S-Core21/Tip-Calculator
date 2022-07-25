@@ -60,7 +60,7 @@ main {
 #people img{
     width: 20px;
     position: absolute;
-    top: 17rem;
+    top: 17.2rem;
     left: 3rem;
 }
 :placeholder-shown {
@@ -177,5 +177,11 @@ small {
  }
  .left-side{
     width: 100%;
+ }
+ #people img{
+  left: 2rem;
+ }
+ #dollar{
+  left: 2rem;
  }
 }

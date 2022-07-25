@@ -52,16 +52,15 @@ main {
   margin-bottom: 5px;
 }
 #dollar{
-    position: absolute;
+    /* position: absolute;
     left: 3rem;
-    top: 2.2rem;
+    top: 2.2rem; */
+    transform: translateY(4.3rem) translateX(.7rem);
     width: 20px;
 }
-#people img{
+#person{
     width: 20px;
-    position: absolute;
-    top: 17.2rem;
-    left: 3rem;
+    transform: translateY(2.4rem) translateX(1rem);
 }
 :placeholder-shown {
   text-align: start;
@@ -153,7 +152,7 @@ small {
   width: auto;
 }
 
-@media only screen and (max-width:420px){
+@media only screen and (max-width:627px){
     body{
         display: block;
         margin: auto;
@@ -178,9 +177,9 @@ small {
  .left-side{
     width: 100%;
  }
- #people img{
+ /* #people img{
   left: 2rem;
- }
+ } */
  #dollar{
   left: 2rem;
  }

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <header>
+       <img src="./images/logo.svg" alt="">
+    </header>
+    <main>
+      <div class="left-side">
+        <section>
+          <label for="bill" id="bill-label"> Bill </label>
+
+          <input type="text" id="bill"/>
+        </section>
+        <small> Provide a valid dollar price </small>
+        <img src="./images/icon-dollar.svg" alt="" id="dollar">
+        <section>
+          <h3>Select Tip %</h3>
+          <div>
+            <section>
+              <button id="tip1">5%</button>
+              <button id="tip2">10%</button>
+              <button id="tip3">15%</button>
+            </section>
+            <section>
+              <button id="tip4">25%</button>
+              <button id="tip5">50%</button>
+              <input type="text" id="tip" placeholder="Custom" />
+              <label for="tip">.</label>
+            </section>
+          </div>
+        </section>
+        <section>
+          <span id="people">
+            <h4>Number of People</h4>
+            <small id="error"></small>
+            <img src="./images/icon-person.svg" alt="">
+          </span>
+          <input type="text" id="no" />
+          <label for="no">.</label>
+        </section>
+      </div>
+      <div class="result-side">
+        <section>
+          <span>
+            <h3>
+              Tip Amount <br />
+              / person
+            </h3>
+            <h1 id="tipAmount">$0.00</h1>
+          </span>
+          <span>
+            <h3>
+              Total <br />
+              / person
+            </h3>
+            <h1 id="total">$0.00</h1>
+          </span>
+        </section>
+        <section>
+          <button id="reset">Reset</button>
+        </section>
+      </div>
+    </main>
+  </body>
+  <script src="script.js"></script>
+</html>
